@@ -14,24 +14,42 @@ API Documentation
 Getting started
 Fork this repo and run the following commands from inside the directory to get setup.
 
-# Setup rails
-# Install ruby (using rbenv)
+Setup rails
+
+Install ruby (using rbenv)
+
 #brew install rbenv
+
 #rbenv install
+
 Install gems
+
 gem install bundler
+
 bundle install
+
 Setup database
+
 rails db:setup
+
 Setup npm
+
 Install node (using nvm)
+
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+
 nvm install
+
 Install packages
+
 nvm use
+
 npm install -g yarn
+
 yarn install
+
 Starting the server
+
 This will start rails and the webpack-dev-server. Webpack is setup with hot reloading.
 
 foreman start
