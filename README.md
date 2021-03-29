@@ -14,8 +14,8 @@ API Documentation
 Getting started
 Fork this repo and run the following commands from inside the directory to get setup.
 
-#Setup rails
-#Install ruby (using rbenv)
+# Setup rails
+# Install ruby (using rbenv)
 #brew install rbenv
 #rbenv install
 Install gems
